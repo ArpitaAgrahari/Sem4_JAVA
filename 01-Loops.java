@@ -1,3 +1,15 @@
+//Basics
+
+// import java.util.Scanner;
+// class myClass{
+//     public static void main(String[] args){
+//         Scanner s = new Scanner(System.in);
+//          System.out.println("hello World!!");
+//          s.close();
+//     }
+// }
+
+
 // Working of Loops
 
 // import java.util.Scanner;
@@ -62,28 +74,28 @@
 
 
 //Switch Case
-import java.util.Scanner;
-class myClass{
-    public static void main(String[] args){
-        Scanner s = new Scanner(System.in);
-        System.out.println("Enter a number: ");
-        int age = s.nextInt();
-        switch(age){
-            case 18:
-                System.out.println("You can vote now!");
-                break;
-            case 20:
-                System.out.println("You can vote now!");
-                break;
-            case 23:
-                System.out.println("You can vote now!");
-                break;
-            default:
-                System.out.println("Wait now!");
-        }
-        s.close();   
-    }
-}
+// import java.util.Scanner;
+// class myClass{
+//     public static void main(String[] args){
+//         Scanner s = new Scanner(System.in);
+//         System.out.println("Enter a number: ");
+//         int age = s.nextInt();
+//         switch(age){
+//             case 18:
+//                 System.out.println("You can vote now!");
+//                 break;
+//             case 20:
+//                 System.out.println("You can vote now!");
+//                 break;
+//             case 23:
+//                 System.out.println("You can vote now!");
+//                 break;
+//             default:
+//                 System.out.println("Wait now!");
+//         }
+//         s.close();   
+//     }
+// }
 
 
 
@@ -118,7 +130,3 @@ class myClass{
 
 
 //Do While Loop
-// import java.util.Scanner;
-// class myClass{
-
-// }
