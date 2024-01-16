@@ -12,7 +12,7 @@ class myClass{
         else if(age==18){
             System.out.println("You can't vote now!");
         }else{
-            System.out.println("You can't vote now!");
+            System.out.println("Wait now!");
         }
         s.close();   
     }
