@@ -13,6 +13,7 @@ class myClass{
             System.out.println("You can't vote now!");
         }else{
             System.out.println("You can't vote now!");
-        }   
+        }
+        s.close();   
     }
 }
