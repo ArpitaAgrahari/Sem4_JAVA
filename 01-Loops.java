@@ -48,3 +48,55 @@
 //         s.close();
 //     }
 // }
+
+//Ques:
+// import java.util.Scanner;
+// class myClass{
+//     public static void main(String[] args){
+//         Scanner s = new Scanner(System.in);
+//         System.out.println("Enter a number: ");
+        
+//         s.close();   
+//     }
+// }
+
+
+//Switch Case
+
+
+
+//For Loop
+// import java.util.Scanner;
+// class myClass{
+//     public static void main(String[] args){
+//         Scanner s = new Scanner(System.in);
+//         for(int i=0;i<10;i++){
+//             System.out.println("Hello");
+//         }
+//         s.close();   
+//     }
+// }
+
+
+//While Loop
+// import java.util.Scanner;
+// class Table{
+//     public static void main(String[] args){
+//         Scanner s = new Scanner(System.in);
+//         System.out.println("Enter a number: ");
+//         int n = s.nextInt();
+//         int i=1;
+//         while(i<=10){
+//             System.out.println(n*i);
+//             i++;
+//         }
+//         s.close();   
+//     }
+// }
+
+
+//Do While Loop
+import java.util.Scanner;
+class myClass{
+    
+}
