@@ -35,12 +35,17 @@ package Self_Practice;
 //     }
 // };
 
-import java.util.Scanner;
-class hey{
-    public static void main(String[] args){
-        int x = 10;
-        int y = 20;
-        int z = 5;
-        System.out.println(x+y+z);
-    }
-};
+
+
+
+// import java.util.Scanner;
+// class hey{
+//     public static void main(String[] args){
+//         int x = 10;
+//         int y = 20;
+//         int z = 5;
+//         System.out.println(x+y+z);
+//     }
+// };
+
+
