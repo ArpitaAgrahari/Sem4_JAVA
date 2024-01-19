@@ -23,11 +23,20 @@ package Self_Practice;
 
 //The + operator can be used between strings to combine them. This is called concatenation.
 
+// import java.util.Scanner;
+// class hi{
+//     public static void main(String[] args){
+//         String firstName = "Arpita";
+//         String lastname = "Agrahari";
+//         System.out.println("Your full name is :" + firstName +" "+lastname);
+//     }
+// }
+
+
+
 import java.util.Scanner;
-class hi{
+class hey{
     public static void main(String[] args){
-        String firstName = "Arpita";
-        String lastname = "Agrahari";
-        System.out.println("Your full name is :" + firstName +" "+lastname);
+        
     }
 }
