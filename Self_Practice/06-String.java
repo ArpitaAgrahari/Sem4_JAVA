@@ -59,3 +59,12 @@ package Self_Practice;
 // }
 
 
+// import java.util.Scanner;
+// class sumOfString{
+//     public static void main(String[] args){
+//         String x = 97;
+//         String y = 65;
+//         String z = x+y;
+//         System.out.println(z);
+//     }
+// }
