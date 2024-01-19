@@ -34,9 +34,28 @@ package Self_Practice;
 
 
 
-import java.util.Scanner;
-class hey{
-    public static void main(String[] args){
-        
-    }
-}
+// import java.util.Scanner;
+// class hey{
+//     public static void main(String[] args){
+//         String firstLetter = "J";
+//         String secLetter = "A";
+//         String thirdletter = "V";
+//         String fourthLetter = "A";
+//         System.out.println(firstLetter + secLetter + thirdletter + fourthLetter);
+//     }
+// }
+
+
+
+//FUNCTION OF CONCAT IN STRINGS:
+
+// import java.util.Scanner;
+// class hey{
+//     public static void main(String[] args){
+//         String firstLetter = "arpitaagrahari004";
+//         String secLetter = "@gmail.com";
+//         System.out.println(firstLetter.concat(secLetter));
+//     }
+// }
+
+
