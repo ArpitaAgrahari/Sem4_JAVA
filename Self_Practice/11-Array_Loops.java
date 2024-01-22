@@ -50,9 +50,7 @@ You can loop through the array elements with the for loop, and use the length pr
 import java.util.Scanner;
 class matrixCreation{
     public static void main(String[] args){
-        int[][] matrix = {{1,2,3},{4,5,6}};
-        for(int i:matrix){
-            S
-        }
+        int[][] matrix = {{1,2,3},{4,5,6},{7,8,9}};
+            System.out.println(matrix[1][1]);
     }
 }
