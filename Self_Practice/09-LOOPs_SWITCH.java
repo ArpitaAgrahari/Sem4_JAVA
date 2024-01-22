@@ -36,4 +36,19 @@ package Self_Practice;
 // }
 
 
+//DO....WHILE LOOP
 
+// import java.util.Scanner;
+// class hi{
+//     public static void main(String[] args){
+//         int i = 0;
+//         do{
+//             System.out.println("Hey! I am here!!");
+//             i++;
+//         }while(i<5);
+//     }
+// }
+
+
+
+//FOR LOOP
