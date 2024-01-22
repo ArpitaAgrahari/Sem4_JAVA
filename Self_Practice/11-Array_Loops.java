@@ -1,3 +1,3 @@
 package Self_Practice;
 
-iport
+import java.uitl.Scanenr;
