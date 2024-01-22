@@ -99,12 +99,36 @@ for (type variableName : arrayName) {
 
 */
 
-import java.util.Scanner;
-class hi{
-    public static void main(String[] args){
-        String[] fruit = {"Apple","Orange","Lemon","Mango"};
-        for(String i:fruit){
-            System.out.println(i);
-        }
-    }
-}
+// import java.util.Scanner;
+// class hi{
+//     public static void main(String[] args){
+//         String[] fruit = {"Apple","Orange","Lemon","Mango"};
+//         for(String i:fruit){
+//             System.out.println(i);
+//         }
+//     }
+// }
+
+
+// import java.util.Scanner;
+// class hi{
+//     public static void main(String[] args){
+//         String[] num = {"23","45","98","34"};
+//         for(String i: num){
+//             System.out.println(i);
+//         }
+//     }
+// }
+
+
+//BREAK STATEMENT
+/* 
+It was used to "jump out" of a switch statement.
+
+The break statement can also be used to jump out of a loop.
+ 
+
+//CONTINUE STATEMENT
+The continue statement breaks one iteration (in the loop), if a specified condition occurs, and continues with the next iteration in the loop.
+
+*/
