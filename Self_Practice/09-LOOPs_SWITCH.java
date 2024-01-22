@@ -4,7 +4,7 @@ import java.util.Scanner;
 class hey{
     public static void main(String[] args){
         int x = 2;
-        switch(2){
+        switch(x){
             case 1:
                System.out.println("Hey1 I am 1");
                break;
