@@ -57,6 +57,8 @@ You can loop through the array elements with the for loop, and use the length pr
 // }
 
 
+
+
 // import java.util.Scanner;
 // class matrixPrinting{
 //     public static void main(String[] args){
