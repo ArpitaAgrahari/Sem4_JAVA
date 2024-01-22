@@ -85,3 +85,26 @@ package Self_Practice;
 //         }
 //     }
 // }
+
+
+//FOR_EACH LOOP
+/*
+
+There is also a "for-each" loop, which is used exclusively to loop through elements in an array:
+
+Syntax:
+for (type variableName : arrayName) {
+  // code block to be executed
+}  
+
+*/
+
+import java.util.Scanner;
+class hi{
+    public static void main(String[] args){
+        String[] fruit = {"Apple","Orange","Lemon","Mango"};
+        for(String i:fruit){
+            System.out.println(i);
+        }
+    }
+}
