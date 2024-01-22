@@ -8,6 +8,6 @@ class arrayLearn{
         System.out.println(nums[1]);
         System.out.println(nums[2]);
         System.out.println(nums[3]);
-        Systems.out.println(nums[4]);
+        System.out.println(nums[4]);
     }
 }
