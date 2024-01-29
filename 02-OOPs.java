@@ -5,8 +5,23 @@
 // what is default constructor?  
 // It is a constructor which is provided by the compiler if we don't create any constructor in the class.
 
-import java.util.Scanner;
-    public static void main(String[] args){
 
-        
+//what is overloading?
+// It is a concept of creating multiple methods with same name but different parameters.
+import java.util.Scanner;
+class hi{
+    public static void main(String[] args) {
+        class Demo{
+            public int x;
+            public int y;
+        }
+        public GFG{
+            public static void main(String[] args) {
+                Demo obj = new Demo();
+                obj.x = 10;
+                obj.y = 20;
+                System.out.println("x = " + obj.x + " y = " + obj.y);
+            }  
+        }
     }
+}
