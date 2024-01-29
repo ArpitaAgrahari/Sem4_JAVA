@@ -32,30 +32,30 @@
 //access modifiers
 //private and public 
 
-import java.util.Scanner;
-class hello{
-    public static void main(String[] args){
-        class Demo{
-            private int x;
-            public int y;
-        }         
-        public void set_x(int val){
-            x=val;
-        }
-        void print_x(){
-            System.out.println("Value of x:" +x);
-        }
-        void printdetails(){
-            System.out.println("value of :" +x);
-            System.out.println("Vlaue of y: "+y);
-        }
-        class gfg{
-            public static void main(String[] args){
-                Demo obj1=new Demo();
-                obj1.y=100;
-                obj1.set_x(200);
-                obj1.printdetails();
-            }
-        }
-    }
-}
+// import java.util.Scanner;
+// class hello{
+//     public static void main(String[] args){
+//         class Demo{
+//             private int x;
+//             public int y;
+//         }         
+//         public void set_x(int val){
+//             x=val;
+//         }
+//         void print_x(){
+//             System.out.println("Value of x:" +x);
+//         }
+//         void printdetails(){
+//             System.out.println("value of :" +x);
+//             System.out.println("Vlaue of y: "+y);
+//         }
+//         class gfg{
+//             public static void main(String[] args){
+//                 Demo obj1=new Demo();
+//                 obj1.y=100;
+//                 obj1.set_x(200);
+//                 obj1.printdetails();
+//             }
+//         }
+//     }
+// }
