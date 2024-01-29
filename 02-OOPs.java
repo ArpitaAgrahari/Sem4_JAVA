@@ -12,10 +12,11 @@ import java.util.Scanner;
 class hi{
     public static void main(String[] args) {
         class Demo{
-            public int x;
-            public int y;
+            public static void main(String[] args) {
+             int x;
+             int y;
         }
-        public GFG{
+        class GFG{
             public static void main(String[] args) {
                 Demo obj = new Demo();
                 obj.x = 10;
