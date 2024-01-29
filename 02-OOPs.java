@@ -29,7 +29,8 @@
 
 
 
-//access modifiers-private and public 
+//access modifiers
+//private and public 
 
 import java.util.Scanner;
 class hello{
