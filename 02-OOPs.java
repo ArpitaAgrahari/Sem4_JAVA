@@ -8,19 +8,24 @@
 
 //what is overloading?
 // It is a concept of creating multiple methods with same name but different parameters.
-import java.util.Scanner;
-class hi{
-    public static void main(String[] args) {
-        class Demo{
-            int x; // Declare x as an instance variable
-            int y; // Declare y as an instance variable
+
+
+// import java.util.Scanner;
+// class hi{
+//     public static void main(String[] args) {
+//         class Demo{
+//             int x; // Declare x as an instance variable
+//             int y; // Declare y as an instance variable
             
-            public static void main(String[] args) {
-                Demo obj = new Demo();
-                obj.x = 10;
-                obj.y = 20;
-                System.out.println("x = " + obj.x + " y = " + obj.y);
-            }  
-        }
-    }
-}
+//             public static void main(String[] args) {
+//                 Demo obj = new Demo();
+//                 obj.x = 10;
+//                 obj.y = 20;
+//                 System.out.println("x = " + obj.x + " y = " + obj.y);
+//             }  
+//         }
+//     }
+// }
+
+
+
