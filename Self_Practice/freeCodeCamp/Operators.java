@@ -6,18 +6,18 @@ class Operators {
         int num2 = 6;
 
         //addition
-        System.out.println(num1 + num2);
+        System.out.println(num1 + num2);   //18
 
         //Subtarction
-        System.out.println(num1 - num2);
+        System.out.println(num1 - num2);    //6
 
         //multiplication
-        System.out.println(num1 * num2);
+        System.out.println(num1 * num2);   //72 
 
         //division
-        System.out.println(num1/num2);
+        System.out.println(num1/num2);    //2
 
         //reminder
-        System.out.println(num1%num2);
+        System.out.println(num1%num2);    //0
     }
 }
