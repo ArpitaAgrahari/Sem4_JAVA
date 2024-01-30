@@ -37,11 +37,31 @@ class dataTypes {
 */
 
 
+/* 
+
 import java.util.Scanner;
 class dataTypes{
     public static void main(String[] args){
         int num1 = 5;
         double num2 = num1;
+
+        System.out.println("The integer value of num1 is: "+num1);
         System.out.println("The diuble value of num1 is: " +num2);
     }
 }
+
+*/
+
+
+/* 
+import java.util.Scanner;
+class dataTypes{
+    public static void main(String[] args){
+        double num1 =5.8;
+        int num2 = num1;
+        System.out.printlln(num2);  
+        //this code will not run beacuse double s larger capablities than int and if we try to convert this inverse of larger to smaller it wll not run as expected.
+    }
+}
+
+*/
