@@ -20,3 +20,8 @@ Methods are used to perform certain actions, and they are also known as function
 
 
 
+//Methods parameters
+
+
+
+
