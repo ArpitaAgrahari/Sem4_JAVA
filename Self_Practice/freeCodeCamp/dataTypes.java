@@ -7,7 +7,7 @@ package Self_Practice.freeCodeCamp;
 //primitive types: stores  integer values
 //non-primitve/refrence types:  stores the refrnce of a variable or dynamic object is being stored.
 
-
+/* 
 
 class dataTypes {
     public static void main(String[] args){
@@ -30,5 +30,18 @@ class dataTypes {
         char copyRightsysmbol = '\u00A9';
 
         System.out.println("This is copyright symbol: "+copyRightsysmbol);
+    }
+}
+
+
+*/
+
+
+import java.util.Scanner;
+class dataTypes{
+    public static void main(String[] args){
+        int num1 = 5;
+        double num2 = num1;
+        System.out.println("The diuble value of num1 is: " +num2);
     }
 }
