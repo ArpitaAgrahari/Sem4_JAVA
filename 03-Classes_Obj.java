@@ -1,5 +1,5 @@
 
-
+import java.util.*;
 import java.util.Scanner;
 class A{
     public void fun(){
@@ -11,7 +11,7 @@ class B extends A{
         System.out.println("Bye bye");
     }
 }
-class G{
+class hello{
     public static void main(String[] args){
         A obj1 = new A();
         B obj2 = new B();
