@@ -32,6 +32,7 @@ class stringsInJava{
         String literalString2 = "abc";
 
         String objectString1 = new String("xyz");
+        //here we can notice beacoz of new keyword indeed of same content both a=have different value in case of address .they act as individle.
         String objectString2 = new String("xyz");
 
         System.out.println(literalString1 == literalString2);
