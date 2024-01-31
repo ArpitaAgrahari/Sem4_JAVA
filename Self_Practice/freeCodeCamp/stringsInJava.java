@@ -28,6 +28,8 @@ class stringsInJava{
 import java.util.Scanner;
 class stringsInJava{
     public static void main(String[] args){
+
+        //literal Strings
         String literalString1 = "abc";
         String literalString2 = "abc";
 
