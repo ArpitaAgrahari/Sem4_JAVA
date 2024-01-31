@@ -46,6 +46,8 @@ class stringsInJava{
 
 */
 
+
+/* 
 import java.util.Scanner;
 class stringsInJava{
     public static void main(String[] args){
@@ -62,5 +64,19 @@ class stringsInJava{
         //for char it is %c.
         String formattedString = String.format("my name is %s. i am from %s.my age is %d.my gpa is %f",name,country,age,gpa);
         System.out.println(formattedString);
+    }
+}
+*/
+
+
+
+
+//length
+
+import java.util.Scanner;
+class stringsInJava{
+    public static void main(String[] args){
+        String name = "Arpita Agrahrai";
+        System.out.println(name.length());
     }
 }
