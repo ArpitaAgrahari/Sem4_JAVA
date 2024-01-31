@@ -12,6 +12,7 @@ class stringsInJava {
 
 */
 
+/*
 import java.util.Scanner;
 class stringsInJava{
     public static void main(String[] args){
@@ -20,5 +21,21 @@ class stringsInJava{
 
         //while using new keyword whatever if address exists or not it will assign new address and stores the content in that only.
         System.out.println(name);
+    }
+}
+*/
+
+import java.util.Scanner;
+class stringsInJava{
+    public static void main(String[] args){
+        String literalString1 = "abc";
+        String literalString2 = "abc";
+
+        String objectString1 = new String("xyz");
+        String objectString2 = new String("xyz");
+
+        System.out.println(literalString1 == literalString2);
+        System.out.println(objectString1 == objectString2);
+
     }
 }
