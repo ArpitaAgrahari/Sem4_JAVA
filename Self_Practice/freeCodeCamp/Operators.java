@@ -91,7 +91,7 @@ class Operators{
         //only not operator work on single oeprand while all other logical operators works with more than one operands
         */
 
-
+/* 
 import java.util.Scanner;
 class Operators{
     public static void main(String[] args){
@@ -104,3 +104,4 @@ class Operators{
 
     }
 }
+*/
