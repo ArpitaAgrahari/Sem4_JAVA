@@ -35,5 +35,20 @@ class arrayInJava {
         Arrays.sort(vowels,start,end);
         System.out.println(Arrays.toString(vowels));
         */
+
+
+        //Binary Search using in built
+       
+        Arrays.sort(vowels);
+
+        int start = 1;
+        int end = 4;
+
+        char key = 'o';
+
+        //it has a inbuilt in java to search as binary search
+        int foundIndex = Arrays.binarySearch(vowels,start,end,key);
+        System.out.println(Arrays.toString(vowels));
+        System.out.println(foundIndex);
     }
 }
