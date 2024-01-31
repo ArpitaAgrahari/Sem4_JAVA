@@ -34,6 +34,8 @@ class Operators{
         int num1 = 12;
            // num1 = num1 +5;
         num1 += 5;
+        num1 -= 5;
+        num1 %=2;
         System.out.println(num1);
     }
 }
