@@ -26,3 +26,14 @@ class Operators {
 }
 
 */
+
+
+import java.util.Scanner;
+class Operators{
+    public static void main(String[] args){
+        int num1 = 12;
+           // num1 = num1 +5;
+        num1 += 5;
+        System.out.println(num1);
+    }
+}
