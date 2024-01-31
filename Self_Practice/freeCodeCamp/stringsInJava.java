@@ -50,14 +50,16 @@ import java.util.Scanner;
 class stringsInJava{
     public static void main(String[] args){
         // System.out.println("Hello world !! my name is Arpita Agrahari");
-        String name = "arpita Agrahari";
-        String country = "India";
-        int age  = 20;
-        double gpa = 9.2;
+        String name = "arpita Agrahari";  //%s
+        String country = "India";   //%s
+        int age  = 20;     //%d
+        double gpa = 9.2;    //%f
         //simple concat of every inputs
         //System.out.println("Hello world!! my name is "+name+" my country name is "+country+" and my age is "+age);
 
         //printing through access specifiers 
+        //for boolean access specifiers is %b.
+        //for char it is %c.
         String formattedString = String.format("my name is %s. i am from %s.my age is %d.my gpa is %f",name,country,age,gpa);
         System.out.println(formattedString);
     }
