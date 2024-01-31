@@ -25,6 +25,7 @@ class stringsInJava{
 }
 */
 
+/* 
 import java.util.Scanner;
 class stringsInJava{
     public static void main(String[] args){
@@ -40,5 +41,24 @@ class stringsInJava{
         System.out.println(literalString1 == literalString2);
         System.out.println(objectString1 == objectString2);
 
+    }
+}
+
+*/
+
+import java.util.Scanner;
+class stringsInJava{
+    public static void main(String[] args){
+        // System.out.println("Hello world !! my name is Arpita Agrahari");
+        String name = "arpita Agrahari";
+        String country = "India";
+        int age  = 20;
+        double gpa = 9.2;
+        //simple concat of every inputs
+        //System.out.println("Hello world!! my name is "+name+" my country name is "+country+" and my age is "+age);
+
+        //printing through access specifiers 
+        String formattedString = String.format("my name is %s. i am from %s.my age is %d.my gpa is %f",name,country,age,gpa);
+        System.out.println(formattedString);
     }
 }
