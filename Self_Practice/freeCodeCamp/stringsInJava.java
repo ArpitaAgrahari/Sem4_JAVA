@@ -77,6 +77,7 @@ import java.util.Scanner;
 class stringsInJava{
     public static void main(String[] args){
         String name = "Arpita Agrahrai";
-        System.out.println(name.length());
+       // System.out.println(name.length());  //to check the length of string
+       System.out.println(name.isEmpty());
     }
 }
