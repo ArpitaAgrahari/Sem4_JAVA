@@ -134,6 +134,9 @@ class stringsInJava{
 
 */
 
+
+/* 
+
     // to check whaether a word cintains int he string or not 
 import java.util.Scanner;
 class stringsInJava{
@@ -143,3 +146,6 @@ class stringsInJava{
         System.out.println(string.contains("red"));
     }
 }
+
+*/
+
