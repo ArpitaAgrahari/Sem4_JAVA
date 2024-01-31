@@ -43,7 +43,7 @@ class forLoop{
 
 */
 
-
+/* 
 import java.util.Scanner;
 class forLoop{
     public static void main(String[] args){
@@ -54,3 +54,4 @@ class forLoop{
         }
     }
 }
+*/
