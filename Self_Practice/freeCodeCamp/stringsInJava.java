@@ -117,14 +117,29 @@ class stringsInJava{
 
 */
 
+
+/* 
+//to replace a particular word in the sentence or to upadted the string
 import java.util.Scanner;
 class stringsInJava{
     public static void main(String[] args){
     String string = "the sky is blue";
     // System.out.println(string.replace("blue","red"));
 
-    //more conveient way to print that
+        //more conveient way to print that
     String updatedString = string.replace("blue","red");
     System.out.println(updatedString);
+    }
+}
+
+*/
+
+    // to check whaether a word cintains int he string or not 
+import java.util.Scanner;
+class stringsInJava{
+    public static void main(String[] args){
+        String string = "the sky is blue.";
+        System.out.println(string.contains("blue"));
+        System.out.println(string.contains("red"));
     }
 }
