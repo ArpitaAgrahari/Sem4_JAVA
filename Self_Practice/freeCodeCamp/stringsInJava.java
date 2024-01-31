@@ -70,7 +70,7 @@ class stringsInJava{
 
 
 
-
+/* 
 //length
 
 import java.util.Scanner;
@@ -79,15 +79,37 @@ class stringsInJava{
         String name = "Arpita Agrahrai";
        
         // System.out.println(name.length()); 
-        //to check the length of string
+            //to check the length of string
        
         // System.out.println(name.isEmpty());  
-        //if string is empty it will return true; otherwise if it is not then it will return false
+            //if string is empty it will return true; otherwise if it is not then it will return false
 
-        //to conversion of lower to upper
+            //to conversion of lower to upper
         //System.out.println(name.toUpperCase());
 
-        //to conversion of upper to lower
-        System.out.println(name.toLowerCase());
+            //to conversion of upper to lower
+        //System.out.println(name.toLowerCase());
+    }
+}
+
+*/
+
+
+import java.util.Scanner;
+class stringsInJava{
+    public static void main(String[] args){
+        String string1 = new String("abc");
+        String string2 = new String("ABC");
+        //System.out.println(string1.equals(string2)); 
+             //output: false since their cases.
+
+             //if we want to check wheather both of them are same regardless of their cases; then we can use
+
+
+        //important
+        
+        // System.out.println(string1.equalsIgnoreCase(string2));     
+                    //output: true since keywords ignored the cases 
+
     }
 }
