@@ -15,7 +15,10 @@ class stringsInJava {
 import java.util.Scanner;
 class stringsInJava{
     public static void main(String[] args){
-        String name = "hey!! i am arpita";
+        //String name = "hey!! i am arpita";  // if we rewrite the name or overwrite the jvm simply checks if the vriables address already exist or not and overwrite the content int that inky.it will not assign any new address to such string name
+        String name = new String("Hey! excuse me!");
+
+        //while using new keyword whatever if address exists or not it will assign new address and stores the content in that only.
         System.out.println(name);
     }
 }
