@@ -95,6 +95,7 @@ class stringsInJava{
 */
 
 
+/* 
 import java.util.Scanner;
 class stringsInJava{
     public static void main(String[] args){
@@ -107,9 +108,17 @@ class stringsInJava{
 
 
         //important
-        
+
         // System.out.println(string1.equalsIgnoreCase(string2));     
                     //output: true since keywords ignored the cases 
 
     }
+}
+
+*/
+
+import java.util.Scanner;
+class stringsInJava{
+    String string = "the sky is blue";
+    System.out.println(string.replace("blue","red"));
 }
