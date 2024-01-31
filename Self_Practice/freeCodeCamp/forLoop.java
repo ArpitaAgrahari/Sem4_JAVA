@@ -28,3 +28,29 @@ class forLoop{
 */
 
 
+/* 
+import java.util.Scanner;
+class forLoop{
+    public static void main(String[] args){
+        int num[] = {1,2,3,4,5};
+        int sum = 0;
+        for(int i =0;i<num.length;i++){
+            sum+=num[i];
+        }
+        System.out.println(sum);
+    }
+}
+
+*/
+
+
+import java.util.Scanner;
+class forLoop{
+    public static void main(String[] args){
+        for(int i=1;i<=50;i++){
+            if(i%2==0){
+                System.out.println(i);
+            }
+        }
+    }
+}
