@@ -119,6 +119,8 @@ class stringsInJava{
 
 import java.util.Scanner;
 class stringsInJava{
+    public static void main(String[] args){
     String string = "the sky is blue";
     System.out.println(string.replace("blue","red"));
+    }
 }
