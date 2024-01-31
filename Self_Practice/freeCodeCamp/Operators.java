@@ -58,5 +58,9 @@ class Operators{
         System.out.println(num1 != num2);
         //is less tahn
         System.out.println(num1 < num2);
+        //is greater tha or equla to 
+        System.out.println(num1 >= num2);
+        //is less than equal to 
+        System.out.println(num1 <= num2);
     }
 }
