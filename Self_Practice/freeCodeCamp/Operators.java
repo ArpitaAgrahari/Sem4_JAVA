@@ -68,6 +68,7 @@ class Operators{
 
 */
 
+/* 
 //logical operators
 import java.util.Scanner;
 class Operators{
@@ -84,7 +85,11 @@ class Operators{
         System.out.println(isStudent || isLibararyMember);
         */
 
+        /* 
         boolean isStudent =false;
-        System.out.println(!isStudent);
-    }
-}
+        System.out.println(!isStudent);   
+        //only not operator work on single oeprand while all other logical operators works with more than one operands
+        */
+
+
+
