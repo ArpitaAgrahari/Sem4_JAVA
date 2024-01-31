@@ -29,9 +29,11 @@ class arrayInJava {
         
 
             //if we want to perform sorting in a finite range in array
+        /* 
         int start = 1;
         int end = 4; 
         Arrays.sort(vowels,start,end);
         System.out.println(Arrays.toString(vowels));
+        */
     }
 }
