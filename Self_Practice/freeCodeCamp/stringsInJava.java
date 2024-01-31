@@ -77,7 +77,17 @@ import java.util.Scanner;
 class stringsInJava{
     public static void main(String[] args){
         String name = "Arpita Agrahrai";
-       // System.out.println(name.length());  //to check the length of string
-       System.out.println(name.isEmpty());
+       
+        // System.out.println(name.length()); 
+        //to check the length of string
+       
+        // System.out.println(name.isEmpty());  
+        //if string is empty it will return true; otherwise if it is not then it will return false
+
+        //to conversion of lower to upper
+        //System.out.println(name.toUpperCase());
+
+        //to conversion of upper to lower
+        System.out.println(name.toLowerCase());
     }
 }
