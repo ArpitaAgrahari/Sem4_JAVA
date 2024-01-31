@@ -2,6 +2,8 @@ package Self_Practice.freeCodeCamp;
 
 
 /* 
+
+//airthmetic operators
 class Operators {
     public static void main(String[] args){
         int num1 = 12;
@@ -27,7 +29,8 @@ class Operators {
 
 */
 
-
+/* 
+//Assignment operators
 import java.util.Scanner;
 class Operators{
     public static void main(String[] args){
@@ -37,5 +40,18 @@ class Operators{
         num1 -= 5;
         num1 %=2;
         System.out.println(num1);
+    }
+}
+
+
+*/
+
+
+import java.util.Scanner;
+class Operators{
+    public static void main(String[] args){
+        int num1 = 15;
+        int num2 = 20;
+        System.out.println(num1 == num2);
     }
 }
