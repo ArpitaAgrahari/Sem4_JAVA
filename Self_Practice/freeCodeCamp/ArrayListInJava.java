@@ -17,5 +17,11 @@ class ArrayListInJava {
         System.out.println(number.toString());
         //to fetch a particular element we can use get() command
         System.out.println(number.get(2));
+
+        //number.remove(3);
+        //OR
+        number.remove(Integer.valueOf(4));
+
+        System.out.println(number.toString());
     }
 }
