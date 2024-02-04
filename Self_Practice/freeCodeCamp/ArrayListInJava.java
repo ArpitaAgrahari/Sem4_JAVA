@@ -63,7 +63,8 @@ class ArrayListInJava {
 
         */
         number.forEach(num ->{
-            System.out.println(num*2);
+            number.set(number.indexOf(num),num*2);
+            //System.out.println(num*2);
         });
         System.out.println(number.toString());
     }
