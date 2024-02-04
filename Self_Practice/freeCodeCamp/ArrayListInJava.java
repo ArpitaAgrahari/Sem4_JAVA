@@ -20,8 +20,19 @@ class ArrayListInJava {
 
         //number.remove(3);
         //OR
+        //to remove element from array
         number.remove(Integer.valueOf(4));
 
         System.out.println(number.toString());
+
+
+        //to set values of element in array
+        number.set(2, Integer.valueOf(30));
+        System.out.println(number.toString());
+        
+        //to clear the array 
+        number.clear();
+
+        System.out.println(number);
     }
 }
