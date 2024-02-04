@@ -57,4 +57,15 @@ class forLoop{
 */
 
 
-
+//special type of for loop
+import java.util.Scanner;
+class forLoop{
+    public static void main(String[] args){
+        int number[] = {1,2,3,4,5,6};
+        int sum = 0;
+        for(int i:number){
+            sum += i;
+            System.out.println(sum);
+        }
+    }
+}
