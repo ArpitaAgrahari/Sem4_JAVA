@@ -2,6 +2,7 @@ package Self_Practice.freeCodeCamp;
 
 
 import java.util.ArrayList;
+import java.util.Comparator;
 class ArrayListInJava {
     public static void main(String[] args){
         ArrayList<Integer> number = new ArrayList<Integer>();
@@ -15,21 +16,33 @@ class ArrayListInJava {
         number.add(2);  //4
 
         System.out.println(number.toString());
+
+
         //to fetch a particular element we can use get() command
         System.out.println(number.get(2));
+
+
+
+        //to sort an array elements
+        number.sort(Comparator.naturalOrder());
+        System.out.println(number.toString());
+
+
 
         //number.remove(3);
         //OR
         //to remove element from array
         number.remove(Integer.valueOf(4));
-
         System.out.println(number.toString());
+
 
 
         //to set values of element in array
         number.set(2, Integer.valueOf(30));
         System.out.println(number.toString());
 
+
+        
         //to clear the array 
         number.clear();
 
