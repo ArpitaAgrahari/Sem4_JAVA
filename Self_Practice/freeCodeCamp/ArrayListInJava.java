@@ -15,6 +15,7 @@ class ArrayListInJava {
         number.add(3);  //3
         number.add(2);  //4
 
+        /* 
         System.out.println(number.toString());
 
 
@@ -26,6 +27,16 @@ class ArrayListInJava {
         //to sort an array elements
         number.sort(Comparator.naturalOrder());
         System.out.println(number.toString());
+
+
+        //to check wheather an elememnt exist or not in array
+        System.out.println(number.contains(Integer.valueOf(5)));
+        System.out.println(number.contains(Integer.valueOf(7)));
+
+
+
+        //to check wheather the array is empty 
+        System.out.println(number.isEmpty());
 
 
 
@@ -42,10 +53,18 @@ class ArrayListInJava {
         System.out.println(number.toString());
 
 
-        
+
         //to clear the array 
         number.clear();
-
         System.out.println(number);
+
+
+        System.out.println(number.isEmpty());
+
+        */
+        number.forEach(num ->{
+            System.out.println(num*2);
+        });
+        System.out.println(number.toString());
     }
 }
